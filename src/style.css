@@ -1,7 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body {
+    font-family: "Open Sans";
+}
+
+.error {
+    color: red;
+    border:2px rgb(178, 2, 2);
 }
 
 .container {
@@ -84,11 +95,12 @@
 }
 
 .delete-btn {
-    padding: 7px;
+    padding: 10px;
     background-color: red;
     color: #fff;
-    size: 18px;
-    border-radius: 5px;
+    font-weight: 500;
+    size: 20px;
+    border-radius: 10px;
     border: none;
 }
 
