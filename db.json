@@ -3,22 +3,54 @@
     {
       "id": "1",
       "text": "З'їздити в магазин",
-      "done": true
+      "done": false,
+      "className": "violet"
     },
     {
       "id": "2",
       "text": "Прибрати вдома",
-      "done": false
+      "done": true,
+      "className": "orange"
     },
     {
       "id": "3",
       "text": "Приготувати їсти",
-      "done": true
+      "done": true,
+      "className": "green"
     },
     {
       "id": "4",
       "text": "Подзвонити до ветеренара",
-      "done": false
+      "done": true,
+      "className": "violet"
+    },
+    {
+      "id": "5",
+      "text": "Зробити фільтр",
+      "done": false,
+      "className": "green"
+    }
+  ],
+  "filters": [
+    {
+      "id": "all",
+      "label": "Всі кольори",
+      "color": "all"
+    },
+    {
+      "id": "violet",
+      "label": "Фіолетовий",
+      "color": "violet"
+    },
+    {
+      "id": "orange",
+      "label": "Помаранчевий",
+      "color": "orange"
+    },
+    {
+      "id": "green",
+      "label": "Зелений",
+      "color": "green"
     }
   ]
 }

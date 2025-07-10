@@ -10,18 +10,41 @@
     <header class="header">
         <div class="container">
             <h1 class="title">Плануй свій день завчасно</h1>
-            <div class="enter-block">
-                <input class="input" type="text" placeholder="Введіть завдання">
-                <button>Створити</button>
+            <h2>Оберіть фільтрацію завдань</h2>
+            <div class="filters">
+                <div class="boxes">
+                    <div>
+                        <input type="checkbox" name="all" class="boxes-filter" checked>
+                        <span>Всі</span>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="done" class="boxes-filter">
+                        <span>Виконано</span>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="notDone" class="boxes-filter">
+                        <span>Не виконано</span>
+                    </div>
+                </div>
+                <div class="btns"></div>
             </div>
         </div>
     </header>
-    <main >
+    <main class="main">
         <div class="container">
             <ul class="list"></ul>
+            <from class="form">
+                <label for="text" class="label">Назва завдання:</label>
+                <input class="input" type="text" placeholder="Введіть завдання" id="text"/>
+                <label for="color" class="label">Оберіть колір:</label>
+                <select id="color">
+                    <option id="">Обери колір...</option>
+                </select>
+                <button type="submit">Створити</button>
+            </from>
         </div>
     </main>
 
-    <script src="script.js"></script>
+    <script type="module" src="js/script.js"></script>
 </body>
 </html>
