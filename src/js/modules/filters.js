@@ -21,9 +21,9 @@ const filters = (container, elem) => {
         .then(data => {
             data.forEach(item => {
                 createFilters(item.id, item.label, item.color)
-                if (item.color === 'all') {
-                    document.querySelector('.filter-btn').classList.add('active');
-                }
+                // if (item.color === 'all') {
+                //     document.querySelector('.filter-btn').classList.add('active');
+                // }
             });
         });
 
